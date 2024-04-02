@@ -24,6 +24,14 @@ def count(parameter):
 def math(num1, operation, num2):
     if operation == '+':
         result = num1 + num2
+    elif operation == '-':
+        result = num1 - num2
+    elif operation == '*':
+        result = num1 * num2
+    elif operation == 'div':
+        result = num1 / num2
+    elif operation == '%':
+        result = num1 % num2
     return str(result)
     
 
